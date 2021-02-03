@@ -6,14 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css" integrity="sha512-++bHK0UNrNHW3LVNLzgTm2G7uOH6Kd+Ved0sskOL0+TY7pr5AcWQgR19kdjAhyyiQRDjFwXubDGqTvjnS09HNA==" crossorigin="anonymous" />
-		<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 		
 		<script src="./js/jquery-2.1.0.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-		<!-- <script src="./js/bootstrap.js"></script> -->
 
 		<script src="./js/blocs.js"></script>
 		<script src="./js/jqBootstrapValidation.js"></script>
@@ -85,25 +83,26 @@
 								<div class="form-group">
 									<label>
 										Nom
+										<input id="name" class="form-control" required />
 									</label>
-									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Adresse email
+										<input id="email" class="form-control" type="email" required />
 									</label>
-									<input id="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Comment nous avez-vous connu ?
+										<input class="form-control" type="email" required id="input_504" />
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
 								</div>
 								<div class="form-group">
 									<label>
-										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+										Brief de votre projet (Ajoutez autant de détails que nécessaire)
+										<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									</label>
 								</div> 
 								<button class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
@@ -136,22 +135,22 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+										<a class="social" aria-label="twitter"  href="twitter.com"><span class="fa fa-twitter icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+										<a class="social" aria-label="facebook"  href="facebook.com"><span class="fa fa-facebook icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+										<a class="social" aria-label="dribbble"  href="dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+										<a class="social" aria-label="instagram"  href="instagram.com"><span class="fa fa-instagram icon-md"></span></a>
 									</div>
 								</div>
 							</div>
