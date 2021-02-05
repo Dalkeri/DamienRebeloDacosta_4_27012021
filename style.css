@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -841,6 +841,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
+
+/* .logo-bloc-1{
+    width: 100px;
+    height: 100px;
+} */
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1042,6 +1047,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    #bloc-7{
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 
